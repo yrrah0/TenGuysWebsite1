@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  .footer a {
+    color: #007bff; /* Blue links */
+  }
+  
+  .footer a:hover {
+    color: #ff0000; /* Red on hover */
+  }
+  

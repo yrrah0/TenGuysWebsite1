@@ -1,0 +1,35 @@
+.product-page {
+  padding: 20px;
+  text-align: center;
+  background-color: #000; /* Black background */
+}
+
+.product-page img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-page h2 {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #007bff; /* Blue text */
+}
+
+.product-page p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #fff; /* White text */
+}
+
+.product-page button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff0000; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+}
+
+.product-page button:hover {
+  background-color: #007bff; /* Blue on hover */
+}
