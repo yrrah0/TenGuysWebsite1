@@ -9,7 +9,7 @@ const initialCart = [
 ];
 
 function CartPage() {
-  const [cart, setCart] = useState(initialCart);
+  const [cart] = useState(initialCart);
 
   const calculateTotal = () => {
     return cart.reduce((total, item) => total + item.price * item.quantity, 0);
